@@ -59,3 +59,13 @@ p{
 .item-price{
     color: rgb(78, 173, 78);
 }
+
+@media screen and (max-width: 768px) {
+    ul {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    img {
+        height: 150px;
+    }
+}
